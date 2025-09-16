@@ -105,7 +105,7 @@ BOOL CMainFrame::OnCreateClient(LPCREATESTRUCT lpcs, CCreateContext* pContext)
 	// TODO: добавьте специализированный код или вызов базового класса
 	m_wndSplitter.CreateStatic(this, 1, 2);
 
-	m_wndSplitter.CreateView(0, 0, RUNTIME_CLASS(CMyTreeView), CSize(400, 0), pContext);	//что бы приняло класс, нодо предобъявить его заголовочный файл в начале
+	m_wndSplitter.CreateView(0, 0, RUNTIME_CLASS(CMyTreeView), CSize(300, 0), pContext);	//что бы приняло класс, нодо предобъявить его заголовочный файл в начале
 	m_wndSplitter.CreateView(0, 1, RUNTIME_CLASS(CLRKompasView), CSize(0, 0), pContext);
 
 	SetActiveView((CView*)m_wndSplitter.GetPane(0, 1));
