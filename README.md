@@ -1,3 +1,6 @@
+# Конфигуратор сборки
+![Static Badge](https://img.shields.io/badge/MFC-v143-blue)
+
 Данная программа позволяет создавать сборку сальника типа СКПП из 3D-моделей его деталей с помощью API KOMPAS-3D. Она создана с помощью библиотеки MFC на основе одного документа (SDI) на языке C++.
 
 <img width="1128" height="668" alt="image" src="https://github.com/user-attachments/assets/38c05ba8-cd7e-455d-a908-ef0717355614" />
@@ -11,3 +14,9 @@
 <img width="1210" height="580" alt="image" src="https://github.com/user-attachments/assets/7f93aa3f-5ce5-403d-9508-0547902519a0" />
 
 <img width="1191" height="554" alt="image" src="https://github.com/user-attachments/assets/828c7c2b-876b-457c-b38a-5cec1106a2ef" />
+
+
+## Дополниельные установки
+
+- Для работы программы требуется установить в Visual Studio отдельный компонент "MFC-библиотека для новейшей версии Build Tools v143 (x86 и x64)".
+- Также требуется установить программу KOMPAS-3D и изменить путь в коде к папке SDK Компаса.
